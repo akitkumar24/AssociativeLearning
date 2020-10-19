@@ -39,7 +39,7 @@ def eclat(itemset,tsd):
             if len(tmp)>= MINSUPPORT and confAB>=someconf:          # MINSUPPORT is the minimun number of transactions should be common between A and B
                 print(confAB,newitemset,jitem)
                 mainItems[tuple(newitemset)].append(jitem)          # adding the rule to mainItems
-                newtsd[jitem]= tmp                                  # creating new 
+                newtsd[jitem]= tmp                                  # creating new dict containing all the items having transaction common with A and B
 
                 
         if len(newtsd) > 0:
