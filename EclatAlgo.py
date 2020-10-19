@@ -40,9 +40,7 @@ def eclat(itemset,tsd):
                 print(confAB,newitemset,jitem)
                 mainItems[tuple(newitemset)].append(jitem)          # adding the rule to mainItems
                 newtsd[jitem]= tmp                                  # creating new 
-                stores+=1
-                if stores >1000:
-                    exit(1)
+
                 
         if len(newtsd) > 0:
             eclat(newitemset,newtsd)
