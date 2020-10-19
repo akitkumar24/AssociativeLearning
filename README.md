@@ -23,7 +23,7 @@ Eclat algorithm is a depth first search algorithm for finding frequent item sets
 
 ## Associate Rule learning on Instacart Dataset
 
-In 2017 instacart released dataset containing 3 millions instacart orders in an open source challange on Kaggle. They challenged Kaggle community to use this anonymized data on customer orders over time to predict which previously purchased products will be in a user’s next order. I have used the same data and can be found (here)[https://www.kaggle.com/c/instacart-market-basket-analysis].
+In 2017 instacart released dataset containing 3 millions instacart orders in an open source challange on Kaggle. They challenged Kaggle community to use this anonymized data on customer orders over time to predict which previously purchased products will be in a user’s next order. I have used the same data and can be found [here](https://www.kaggle.com/c/instacart-market-basket-analysis)
 
 The order for training or creating rules can be found in "order_products__prior.csv". 
 ~~~
